@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "614645854855",
+    "firebase_url": "https://kurerati-default-rtdb.firebaseio.com",
+    "project_id": "kurerati",
+    "storage_bucket": "kurerati.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614645854855:android:9009c1114d33f5b98e7e22",
+        "android_client_info": {
+          "package_name": "com.example.diplom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhGGN1YrJ9fr2E_ihNPtFMZq5aZBJjaD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginAndRegistration.MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/davai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="@string/davai"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/vhod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:fontFamily="monospace"
+        android:text="@string/vhod"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:fontFamily="monospace"
+        android:hint="@string/login"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:text="Забыли пароль"
+        android:textSize="15dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    </ProgressBar>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:backgroundTint="#2CE4C796"
+        android:gravity="bottom|top"
+        android:text="@string/buttonvhod"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/buttonlogReg"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#45C3996C"
+        android:onClick="OnClickRecordReg"
+        android:text="@string/buttonlogreg"
+        android:textColor="#000000"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/buttonadmin"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#5EC3996C"
+        android:onClick="OnClickSignInAdmin"
+        android:text="@string/buttonadmin"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp">
+
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".LoginAndRegistration.MainActivityReg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/davaireg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:text="@string/davaireg" />
+
+    <TextView
+        android:id="@+id/reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="monospace"
+        android:text="@string/reg"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/loginreg"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="monospace"
+        android:inputType="textEmailAddress"
+        android:hint="@string/loginreg"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/passwordreg"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:inputType="textPassword"
+        android:hint="@string/passwordreg"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/buttonreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="bottom|top"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="@string/buttonreg"
+        android:backgroundTint="#45CCA57A"
+        android:textColor="#A9000000"/>
+
+</LinearLayout>

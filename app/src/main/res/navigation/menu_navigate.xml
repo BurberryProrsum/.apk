@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_navigate"
+    app:startDestination="@id/livesFragment">
+
+    <fragment
+        android:id="@+id/activeFragment"
+        android:name="com.example.diplom.ActiveFragment"
+        android:label="fragment_active"
+        tools:layout="@layout/fragment_active" />
+    <fragment
+        android:id="@+id/livesFragment"
+        android:name="com.example.diplom.LivesFragment"
+        android:label="fragment_lives"
+        tools:layout="@layout/fragment_lives" />
+    <fragment
+        android:id="@+id/completedFragment"
+        android:name="com.example.diplom.CompletedFragment"
+        android:label="fragment_completed"
+        tools:layout="@layout/fragment_completed" />
+    <fragment
+        android:id="@+id/settingBlankFragment"
+        android:name="com.example.diplom.SettingBlankFragment"
+        android:label="fragment_setting_blank"
+        tools:layout="@layout/fragment_setting_blank" />
+    <fragment
+        android:id="@+id/recycleViewClickOrderActivity"
+        android:name="com.example.diplom.admin.RecycleViewClickOrderActivity"
+        android:label="RecycleViewClickOrderActivity" />
+
+</navigation>

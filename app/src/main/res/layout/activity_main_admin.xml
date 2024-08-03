@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context=".LoginAndRegistration.MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/davai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/rubik_mono_one"
+        android:textSize="20dp"
+        android:text="@string/davai" />
+
+    <TextView
+        android:id="@+id/vhod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:fontFamily="monospace"
+        android:text="@string/vhodadmin"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:fontFamily="monospace"
+        android:inputType="textEmailAddress"
+        android:hint="Логин"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+    </ProgressBar>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:id="@+id/buttonadmin"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="bottom|top"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2CE4C796"
+        android:text="@string/buttonvhod"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat" />
+
+
+</LinearLayout>

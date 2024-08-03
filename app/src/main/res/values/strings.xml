@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">diplom</string>
+    //Страница входа
+    <string name="davai">Давай Закажем</string>
+    <string name="vhod">Личный кабинет</string>
+    <string name="login">Email</string>
+    <string name="password">Пароль</string>
+    <string name="buttonvhod">Вход</string>
+    <string name="buttonlogreg">Зарегистрироваться</string>
+    <string name="buttonadmin">Администратор</string>
+
+    //Страница регистрации
+    <string name="reg">Создать аккаунт</string>
+    <string name="loginreg">Введите ваш Email</string>
+    <string name="passwordreg">Придумайте пароль</string>
+    <string name="buttonreg">Зарегистрироваться</string>
+    <string name="davaireg">Давай Закажем</string>
+
+    //Админ вход
+    <string name="vhodadmin">Панель администратора</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragmentlive">Свободные заказы</string>
+    <string name="fragmentactive">Активные заказы</string>
+    <string name="fragmentcompleted">Выполненные заказы</string>
+    <string name="fragmentsetting">Настройки</string>
+</resources>

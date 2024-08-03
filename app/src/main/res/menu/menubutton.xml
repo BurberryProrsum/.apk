@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Свободные"
+        android:id="@+id/livesFragment"
+        android:icon="@drawable/home"
+        />
+    <item android:title="Активные"
+        android:id="@+id/activeFragment"
+        android:icon="@drawable/active"/>
+    <item android:title="Выполнены"
+        android:id="@+id/completedFragment"
+        android:icon="@drawable/completed"/>
+    <item android:title="Настройки"
+        android:id="@+id/settingBlankFragment"
+        android:icon="@drawable/setting"/>
+</menu>
